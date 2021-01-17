@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UX Design</title>
+        <style>
+            .main-section {
+                background-color: skyblue;
+                font-family: Arial;
+                padding: 10px;
+                border-radius: 10px;
+            }
+
+            #nav-bar {
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                width: 150px;
+                height: 100%;
+                margin-top: 10px;
+                background-color: white;
+                font-family: arial;
+            }
+
+            #main-doc {
+                position: absolute;
+                margin-left: 160px;
+                margin-top: 10px;
+            }
+
+            /*unvisited link*/
+            a:link {
+                color: black;
+            }
+            /*visited link*/
+            a:visited {
+                color: blue;
+            }
+            /*mouse over link*/
+            a:hover {
+                color: skyblue;
+            }
+            /*selected link*/
+            a:active {
+                color: purple;
+            }
+
+            @media (max-width: 800px) {
+                #nav-bar {
+                position: fixed;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                top: 0px;
+                width: 90%;
+                height: 20px;
+                padding-right: 100%;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                background-color: white;
+                font-family: arial;
+                margin-top: 0px;
+                margin-left: 10px;
+                z-index: 2;
+                }
+
+                #main-doc {
+                    position: absolute;
+                    margin-top: 40px;
+                    margin-left: 10px;
+                    z-index: 1;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <nav id="nav-bar" class="nav-link" width=auto>
+            <header>UX Design:</header>
+            <br>
+            <a href="#ux">UX</a>
+            <a href="#ux_design">UX Design</a>
+            <a href="#ux_design_process">UX Design Process</a>
+            <a href="#user_research">User Research</a>
+            <a href="#career_paths">Career Paths</a>
+            </nav>
+        <main id="main-doc">
+            <section class="main-section" id="ux">
+                <header>
+                    <h1>UX</h1>
+                    <p>User experience, or UX, is a term used to describe the overall experience a user has when interacting with a product or service in a given context. Depending on how the product or service is designed, the experience can range from delightful to downright frustrating!</p>
+                    <p>You’ll often hear about UX in relation to digital products, such as websites and apps—but UX isn’t limited to the digital space. Anything that can be experienced can be designed, from the packaging of a toothbrush to the wheels of an orthopaedic chair.</p>
+                    <p>The impact of good (and bad!) UX is everywhere. That’s one of the reasons it’s such an exciting field, and also explains why you already know a lot more about UX than you realize. Every time you curse a push door that has a pull bar, or close a confusing website in frustration, you’re making a judgement on the quality of its UX design.</p>
+                    <br>
+                </header>
+            </section>
+            <br>
+            <section class="main-section" id="ux_design">
+                <header>
+                    <h1>UX Design</h1>
+                    <p>User experience design, or UXD, considers each and every element that shapes the user experience. It’s all about designing specifically for the needs of the user or customer, looking at things like ease of use, quality, and efficiency.</p>
+                    <p>If you think about it, humans can only benefit from complex systems like websites and computer programs (or any product, really) if these systems are somewhat user-friendly. UX designers look to bridge the gap between the product and the human user. They think about how people interact with a given product, and look for ways to make these interactions as intuitive and straightforward as possible.</p>
+                    <p>UX designers have to wear many different hats, finding just the right balance between scientist, psychologist, sociologist, and artist (among others!). In order to come up with viable, creative, and user-friendly design solutions, you need to analyze past experiences, research new practices, interview real or potential users, and test, test, test your designs! We’ll look at the UX design process in more detail in the next tutorial. For now, though, let’s take a quick look at the history of UX design.</p>
+                    <br>
+                </header>
+            </section>
+            <br>
+            <section class="main-section" id="ux_design_process">
+                <header>
+                    <h1>UX Design Process</h1>
+                    <p>The UX design process can generally be divided into four key phases:</p>
+                    <ol>
+                        <li>Research</li>
+                        <li>Design</li>
+                        <li>Testing</li>
+                        <li>Implementation</li>
+                        <li>Observe</li>
+                    </ol>
+                    <br>
+                </header>
+            </section>
+            <br>
+            <section class="main-section" id="user_research">
+                <header>
+                    <h1>User Research</h1>
+                    <p>You may remember from the previous tutorial that user research is a crucial component of the UX design process. Indeed, all UX designers must master the art of user research—and some will even choose to specialize in this area.</p>
+                    <p>As the job title suggests, UX researchers focus on the research aspect of design. They conduct both qualitative and quantitative research, gathering in-depth insights into the target users. As a UX research specialist, you can expect to work closely with the product team to identify research questions, to plan and lead user research sessions (such as interviews, surveys, usability tests, etc.), and to share your insights in order to inform the product strategy. Some additional roles often associated with the user research quadrant include usability analyst and research analyst.</p>
+                    <br>
+                </header>
+            </section>
+            <br>
+            <section class="main-section" id="career_paths">
+                <header>
+                    <h1>Career Paths</h1>
+                    <p>UX design is an ever-growing field, offering plenty of opportunity to both specialize and diversify.</p>
+                    <code>UX writer</code>
+                    <br>
+                    <code>Voice designer</code>
+                    <br>
+                    <code>UX developer</code>
+                    <br>
+                    <code>UX designer</code>
+                    <br>
+                    <code>UI designer</code>
+                    <br>
+                    <br>
+                </header>
+            </section>
+            <br>
+        </main>
+    </body>
+</html>
